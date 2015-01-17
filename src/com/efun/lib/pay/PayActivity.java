@@ -17,6 +17,7 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.os.RemoteException;
 import android.support.v4.app.FragmentActivity;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 
@@ -55,6 +56,7 @@ public class PayActivity extends FragmentActivity {
 
 					@Override
 					public void run() {
+						Log.d("alex", PayActivity.class + ": get sku info start!!");
 						Bundle skuDetails = null;
 						ArrayList<String> skuList = new ArrayList<String>();
 						skuList.add("payone");
