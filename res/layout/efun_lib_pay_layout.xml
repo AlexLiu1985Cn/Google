@@ -13,7 +13,36 @@
             android:id="@+id/test"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_weight="1"
             android:text="test" />
+
+        <Button
+            android:id="@+id/getSkuInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="get" />
+
+        <Button
+            android:id="@+id/startPay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="pay" />
+
+        <Button
+            android:id="@+id/getPurchase"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="getPurchase" />
+        
+        <Button
+            android:id="@+id/consumePurchase"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="consumePurchase" />
     </LinearLayout>
 
 </LinearLayout>
